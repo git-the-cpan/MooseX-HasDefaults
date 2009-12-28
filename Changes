@@ -1,0 +1,4 @@
+0.02  2009-12-28
+    * Stop using "has +" in roles, especially since it wasn't doing anything
+      anyway
+

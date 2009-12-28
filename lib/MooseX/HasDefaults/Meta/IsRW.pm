@@ -1,11 +1,6 @@
 package MooseX::HasDefaults::Meta::IsRW;
 use Moose::Role;
 
-# This does not actually do anything but lie less in the attribute's metadata.
-has '+is' => (
-    default => 'rw',
-);
-
 around _process_options => sub {
     my $orig = shift;
     my (undef, undef, $options) = @_;

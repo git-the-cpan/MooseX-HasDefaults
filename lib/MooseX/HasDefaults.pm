@@ -1,5 +1,5 @@
 package MooseX::HasDefaults;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 die "Do not use MooseX::HasDefaults, use MooseX::HasDefaults::RO or MooseX::HasDefaults::RW";
 
